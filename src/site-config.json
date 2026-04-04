@@ -1,0 +1,612 @@
+{
+  "business": {
+    "name": "Horizon Painting",
+    "phone": "555-pai-r90",
+    "category": "painting",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  "design": {
+    "preset": {
+      "id": "painting-trust-navy",
+      "categoryGroup": "painting",
+      "name": "Trust Navy",
+      "recipeFile": "painting/trust-navy.astro",
+      "colors": {
+        "primary": "#F59E0B",
+        "primaryDark": "#78350F",
+        "primaryLight": "#fde7c2",
+        "secondary": "#d08609",
+        "accent": "#D946EF",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#F59E0B",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Archivo",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "painting/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevate Your Space with Horizon Painting",
+      "heroSubline": "Transforming Indianapolis homes with precision and care. Let us bring your vision to life with colors that reflect your style.",
+      "aboutTitle": "Our Story in Indianapolis",
+      "aboutText": [
+        "Founded in 2012, Horizon Painting began as a small team passionate about revitalizing Indianapolis homes. Over the years, we've grown into a trusted name, known for our meticulous attention to detail and commitment to quality.",
+        "We believe every brushstroke matters. Our approach combines craftsmanship with personalized service, ensuring your project exceeds expectations. From color consultation to flawless execution, we handle every step with care.",
+        "As part of the Indianapolis community, we take pride in contributing to the beauty of our neighborhoods. Whether it's preserving historic Broad Ripple homes or enhancing modern Carmel developments, we're dedicated to making a lasting impact."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "With over a decade serving Indianapolis, we understand the unique challenges of Midwest homes, from freeze-thaw cycles to clay soil shifts."
+        },
+        {
+          "title": "Personalized Service",
+          "description": "We listen to your vision and provide tailored solutions, whether you're refreshing a Meridian-Kessler bungalow or a Fishers townhome."
+        },
+        {
+          "title": "Premium Materials",
+          "description": "Using only high-quality paints formulated for Indiana's climate, we ensure your home stays beautiful through harsh winters and humid summers."
+        },
+        {
+          "title": "Clean & Respectful",
+          "description": "Our teams treat your home like their own, with meticulous protection and thorough cleanup, leaving no trace but stunning results."
+        }
+      ],
+      "ctaHeadline": "Ready to Transform Your Home?",
+      "ctaSubline": "Schedule your free consultation today and discover the Horizon Painting difference."
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Breath new life into your Indianapolis home with flawless interior finishes.",
+        "description": "Indianapolis homes deserve interiors that reflect their character, whether it's a historic Broad Ripple craftsman or a modern Carmel open-concept space. Our interior painting service begins with a thorough assessment of your walls, addressing any imperfections from seasonal humidity shifts or settling foundations.\n\nWe specialize in working with Indianapolis' diverse architecture, carefully preparing surfaces to ensure optimal paint adhesion. For older Meridian-Kessler homes, this might mean addressing plaster cracks, while newer Fishers developments often benefit from our precise trim work. Our color consultants help you select hues that complement your lighting and lifestyle, considering how Indiana's changing seasons affect how colors appear throughout the year.",
+        "process": [
+          "Step 1: Comprehensive consultation assessing your space and discussing vision",
+          "Step 2: Surface preparation including patching, sanding, and priming",
+          "Step 3: Precision application using techniques tailored to your wall surfaces",
+          "Step 4: Final inspection and touch-ups for flawless results"
+        ],
+        "benefits": [
+          "Enhanced living spaces that feel fresh and inviting",
+          "Durable finishes resistant to Indiana's humidity fluctuations",
+          "Professional color guidance for your specific architecture",
+          "Minimal disruption to your daily routine"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle painting around my furniture?",
+            "answer": "We carefully move and protect all furnishings, using professional-grade covers. For larger items, we can discuss relocation options during your consultation."
+          },
+          {
+            "question": "What paint brands do you use?",
+            "answer": "We primarily work with premium brands like Sherwin-Williams and Benjamin Moore, selected for their performance in Indianapolis' climate conditions."
+          },
+          {
+            "question": "How long will my interior painting project take?",
+            "answer": "Most homes complete in 2-5 days depending on size and preparation needs. We'll provide a detailed timeline after assessing your space."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home against Indiana's challenging weather.",
+        "description": "Indianapolis exteriors face relentless challenges - from winter freeze-thaw cycles to summer humidity and severe storms. Our exterior painting service goes beyond aesthetics to provide essential protection for your home's surfaces.\n\nWe start with a thorough evaluation of your siding, trim, and masonry, identifying any areas compromised by Indiana's weather. For historic Irvington homes, this might mean specialized wood restoration, while newer Noblesville properties often require careful attention to composite materials. Our process includes proper caulking and sealing to prevent moisture intrusion that leads to Midwestern rot and mold issues. We use paints specifically formulated to expand and contract with temperature swings, preventing premature cracking and peeling.",
+        "process": [
+          "Step 1: Detailed exterior assessment and repair recommendations",
+          "Step 2: Surface preparation including power washing, scraping, and priming",
+          "Step 3: Weather-conscious application timing for optimal drying conditions",
+          "Step 4: Protective coating application with climate-appropriate products"
+        ],
+        "benefits": [
+          "Enhanced curb appeal that stands out in your neighborhood",
+          "Superior protection against Indianapolis' extreme weather",
+          "Long-lasting results that withstand seasonal changes",
+          "Increased home value with professional-grade finishes"
+        ],
+        "faq": [
+          {
+            "question": "What's the best time of year for exterior painting in Indianapolis?",
+            "answer": "We recommend spring or fall when temperatures are moderate, but our team works year-round, adjusting techniques to current weather conditions."
+          },
+          {
+            "question": "How often should I repaint my home's exterior?",
+            "answer": "Most Indianapolis homes need repainting every 5-8 years depending on materials and sun exposure. We'll assess your specific situation during our consultation."
+          },
+          {
+            "question": "Do you paint in rain or cold weather?",
+            "answer": "We monitor forecasts carefully and reschedule if conditions aren't ideal for paint adhesion and drying. Your project's success is our priority."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-refinishing",
+        "name": "Cabinet Refinishing",
+        "shortDescription": "Transform your kitchen without the cost of full replacement.",
+        "description": "Many Indianapolis homes, from Fountain Square bungalows to Carmel gourmet kitchens, can benefit from cabinet refinishing rather than full replacement. Our process revitalizes your existing cabinetry with beautiful, durable finishes that withstand daily use.\n\nWe begin by carefully cleaning and degreasing surfaces, particularly important in Indianapolis homes where cooking oils combine with seasonal humidity. Our team then repairs any damage from years of use, including fixing loose hinges common in older Meridian-Kessler homes. The refinishing process includes thorough sanding, premium primer application, and multiple coats of cabinet-grade paint or stain. We finish with protective topcoats that resist moisture and wear, crucial for Indiana's fluctuating humidity levels that can cause wood to swell and contract.",
+        "process": [
+          "Step 1: Cabinet assessment and hardware evaluation",
+          "Step 2: Thorough cleaning and surface preparation",
+          "Step 3: Professional-grade finishing application",
+          "Step 4: Protective topcoat and hardware reinstallation"
+        ],
+        "benefits": [
+          "Cost-effective kitchen update without demolition",
+          "Custom color options to match your evolving style",
+          "Durable finishes resistant to humidity and daily use",
+          "Faster turnaround than full cabinet replacement"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my existing cabinet color?",
+            "answer": "Yes, we can create custom color matches or help you select a fresh new palette that complements your Indianapolis home's style."
+          },
+          {
+            "question": "How long will my kitchen be out of commission?",
+            "answer": "Most projects take 3-5 days. We'll work with you to minimize disruption and may stage the work to keep some cabinets accessible."
+          },
+          {
+            "question": "Do you refinish both wood and laminate cabinets?",
+            "answer": "Yes, we have specialized techniques for all common cabinet materials found in Indianapolis homes."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining",
+        "name": "Deck Staining",
+        "shortDescription": "Protect and enhance your outdoor living space against Indiana elements.",
+        "description": "Indianapolis decks endure punishing seasonal changes - scorching summer sun, winter snow loads, and everything in between. Our deck staining service restores beauty while providing essential protection for your investment.\n\nWe start by evaluating your deck's condition, paying special attention to issues common in Central Indiana like moisture damage from clay soil drainage problems. Our thorough cleaning removes mildew and prepares the wood for optimal stain absorption. For older Broad Ripple decks, this might mean addressing weathered boards, while newer Fishers constructions often benefit from our precision application techniques. We use premium stains specifically formulated for Midwest weather, providing UV protection to prevent graying and water repellency to combat Indiana's humidity. The result is a deck that looks beautiful year-round while resisting the elements that quickly degrade untreated wood.",
+        "process": [
+          "Step 1: Comprehensive deck inspection and repair assessment",
+          "Step 2: Deep cleaning and preparation of all surfaces",
+          "Step 3: Application of weather-resistant stain",
+          "Step 4: Quality inspection and final touches"
+        ],
+        "benefits": [
+          "Enhanced outdoor living space for Indianapolis' short but precious warm seasons",
+          "Protection against moisture damage and UV deterioration",
+          "Extended lifespan for your deck structure",
+          "Custom color options to complement your home's exterior"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain my Indianapolis deck?",
+            "answer": "Most decks need refinishing every 2-3 years depending on exposure. North-facing decks typically last longer than those in full sun."
+          },
+          {
+            "question": "Can you stain my deck in colder weather?",
+            "answer": "We schedule deck projects between April and October when temperatures are consistently above 50°F for proper stain curing."
+          },
+          {
+            "question": "Do you repair damaged deck boards?",
+            "answer": "Yes, we can replace or repair compromised boards before staining to ensure your deck is both beautiful and safe."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Fix wall imperfections before they become eyesores.",
+        "description": "Indianapolis homes frequently develop drywall issues due to our region's unique conditions - foundation shifts from clay soil, humidity-induced cracks, or simple wear and tear in high-traffic areas. Our drywall repair service restores smooth, flawless walls throughout your home.\n\nWe specialize in addressing the types of damage common to Marion County homes, whether it's cracks along the ceiling joints of a Mass Ave loft or dents in a Carmel family room. Our process begins with careful assessment of the underlying cause - crucial for preventing recurring issues in Indianapolis' active soil conditions. We then expertly patch and texture the area, blending repairs seamlessly with your existing walls. For older homes, we match historic plaster textures, while newer constructions receive factory-smooth finishes. The final step involves priming and painting to create an invisible repair that withstands Indiana's seasonal humidity changes.",
+        "process": [
+          "Step 1: Damage assessment and root cause analysis",
+          "Step 2: Precision patching and structural reinforcement if needed",
+          "Step 3: Professional texturing to match existing surfaces",
+          "Step 4: Priming and painting for flawless integration"
+        ],
+        "benefits": [
+          "Eliminate eyesores and potential moisture entry points",
+          "Professional texture matching for seamless repairs",
+          "Prevention of recurring issues through proper diagnosis",
+          "Improved appearance and value of your living spaces"
+        ],
+        "faq": [
+          {
+            "question": "Why do my drywall cracks keep reappearing?",
+            "answer": "Indianapolis' clay soil causes foundation movement. We address this by using flexible patching compounds and sometimes adding reinforcement tape for lasting repairs."
+          },
+          {
+            "question": "Can you match my wall's orange peel or knockdown texture?",
+            "answer": "Yes, we carry a full range of texturing tools and materials to replicate any common Indianapolis drywall finish."
+          },
+          {
+            "question": "How long do drywall repairs take to dry?",
+            "answer": "Most repairs are ready for painting within 24 hours, though we may recommend waiting longer in high-humidity conditions common in summer."
+          }
+        ]
+      },
+      {
+        "slug": "popcorn-ceiling-removal",
+        "name": "Popcorn Ceiling Removal",
+        "shortDescription": "Modernize your Indianapolis home by eliminating outdated textured ceilings.",
+        "description": "Many Indianapolis homes built between the 1960s-1980s feature popcorn ceilings that now date interiors and collect dust. Our careful removal process transforms these spaces with clean, modern smooth ceilings.\n\nWe begin by testing for asbestos, particularly important in older Marion County homes where the material was commonly used. For safe removal, we establish containment areas to prevent dust spread throughout your home - especially valuable for families in neighborhoods like Irvington preserving historic details while updating living spaces. Our team uses professional scraping tools and techniques to efficiently remove texture without damaging underlying drywall. After removal, we meticulously smooth and prepare the surface, addressing any imperfections revealed by the process. The final step includes priming and painting to create a bright, updated ceiling that enhances your room's proportions and light reflection - particularly beneficial for Indianapolis' often gray winter days.",
+        "process": [
+          "Step 1: Asbestos testing (if home built before 1980)",
+          "Step 2: Establishment of dust containment system",
+          "Step 3: Careful texture removal and surface preparation",
+          "Step 4: Finishing with smooth plaster and paint"
+        ],
+        "benefits": [
+          "Modern, clean-lined ceilings that brighten your space",
+          "Elimination of dust-catching texture",
+          "Increased home value with contemporary finishes",
+          "Professional handling of potential asbestos concerns"
+        ],
+        "faq": [
+          {
+            "question": "Is popcorn ceiling removal messy?",
+            "answer": "We use professional containment systems to minimize dust spread. Your living areas remain clean, with only the work area affected."
+          },
+          {
+            "question": "How long does the process take?",
+            "answer": "Most rooms complete in 1-2 days depending on size and ceiling condition. We'll provide a detailed timeline after assessment."
+          },
+          {
+            "question": "Can you remove texture from just one room?",
+            "answer": "Absolutely. Many Indianapolis homeowners choose to update ceilings room-by-room as they renovate."
+          }
+        ]
+      },
+      {
+        "slug": "color-consultation",
+        "name": "Color Consultation",
+        "shortDescription": "Expert guidance selecting perfect hues for your Indianapolis home.",
+        "description": "Choosing paint colors for your Indianapolis home involves more than personal preference - it requires understanding how Indiana's unique light and surroundings affect color perception. Our color consultation service takes the guesswork out of selection.\n\nWe begin by assessing your home's architecture, whether it's a historic Fountain Square cottage or a modern Fishers townhome. Our consultants consider how Indianapolis' seasonal light changes will impact your colors - winter's gray-blue light versus summer's golden tones. We evaluate room orientations, with north-facing spaces needing different solutions than south-facing ones. For exteriors, we recommend palettes that complement neighborhood character while standing up to our intense sunlight. The process includes creating custom color boards that show how selections interact at different times of day, helping you visualize results before committing. We'll also advise on finish types suited to each space's use and exposure, ensuring your beautiful choices stay beautiful through Indianapolis' challenging climate.",
+        "process": [
+          "Step 1: Assessment of your home's architecture and lighting conditions",
+          "Step 2: Discussion of your aesthetic goals and functional needs",
+          "Step 3: Creation of customized color palette options",
+          "Step 4: Presentation with samples and application recommendations"
+        ],
+        "benefits": [
+          "Confidence in color choices before purchase",
+          "Professional insight into how Indianapolis light affects colors",
+          "Cohesive whole-home palettes with intentional variety",
+          "Guidance on finishes for durability and desired effects"
+        ],
+        "faq": [
+          {
+            "question": "What if I don't like the colors we select?",
+            "answer": "We provide large samples you can test in your space and will refine selections until you're completely satisfied."
+          },
+          {
+            "question": "Do you consider resale value in color selections?",
+            "answer": "For homeowners considering future sales, we'll suggest appealing yet personalized palettes that enhance marketability."
+          },
+          {
+            "question": "Can you help match existing furnishings or features?",
+            "answer": "Yes, we'll bring color tools to perfectly coordinate with your fixed elements like flooring or countertops."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith T.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Horizon transformed our Meridian-Kessler bungalow with a historically appropriate color palette. They expertly handled the plaster walls and even matched the original 1930s trim color we found under layers of paint. The team was respectful of our home and left it spotless.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Exterior Painting",
+        "text": "After Indianapolis' brutal winter cracked our home's paint, Horizon not only repainted but addressed underlying moisture issues around our foundation. Two years later, the finish still looks fresh despite temperature swings. Their attention to detail on our Craftsman's intricate trim was exceptional.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lisa H.",
+        "rating": 5,
+        "service": "Cabinet Refinishing",
+        "text": "Our Carmel kitchen looks brand new after Horizon refinished the cabinets. They helped us select a warm gray that complements our quartz countertops and added durable finish that withstands our busy family. The transformation cost a fraction of replacement and was done in just four days.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "David K.",
+        "rating": 5,
+        "service": "Deck Staining",
+        "text": "The team restored our Broad Ripple deck beautifully after years of neglect. They repaired several loose boards and used a premium stain that's resisted Indiana's rain and sun perfectly. We've gotten countless compliments from neighbors about how it brightens our backyard.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Popcorn Ceiling Removal",
+        "text": "Removing the popcorn texture from our 1970s ranch home's ceilings made such a difference! Horizon handled everything professionally, including testing for asbestos (thankfully negative). The smooth ceilings make our Noblesville home feel instantly more modern and spacious.",
+        "date": "2024-08-03"
+      },
+      {
+        "name": "Thomas W.",
+        "rating": 5,
+        "service": "Color Consultation",
+        "text": "As someone terrified of color choices, the consultation service was invaluable. The designer helped us select a whole-home palette that works with our Fishers home's open layout and northern light exposure. Every room flows beautifully while having its own character.",
+        "date": "2024-06-29"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Indianapolis Painting Contractor | Horizon Painting",
+        "description": "Trusted Indianapolis painting company serving Carmel, Fishers & Noblesville. Quality interior/exterior painting with local climate expertise since 2012."
+      },
+      "about": {
+        "title": "About Horizon Painting | Indianapolis Painters",
+        "description": "Learn about our Indianapolis painting company's history, values, and commitment to transforming homes across Central Indiana."
+      },
+      "services": {
+        "title": "Painting Services in Indianapolis | Horizon Painting",
+        "description": "Comprehensive painting services for Indianapolis homes including interior, exterior, cabinet refinishing, deck staining, and popcorn ceiling removal."
+      },
+      "contact": {
+        "title": "Contact Horizon Painting | Indianapolis Painters",
+        "description": "Schedule your free painting consultation with Indianapolis' trusted residential painting experts serving Carmel, Fishers and Noblesville."
+      },
+      "reviews": {
+        "title": "Horizon Painting Reviews | Indianapolis Clients",
+        "description": "Read authentic reviews from satisfied Indianapolis homeowners who trusted Horizon Painting with their interior and exterior projects."
+      },
+      "service-areas": {
+        "title": "Areas We Serve | Indianapolis Painting Company",
+        "description": "Horizon Painting proudly serves Carmel, Fishers, Noblesville and surrounding Indianapolis communities with premium painting services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Carmel",
+        "slug": "carmel-in",
+        "state": "IN",
+        "content": "Horizon Painting proudly serves the upscale communities of Carmel, IN, where many homes were built between the 1980s and 2000s. Our expertise in exterior painting ensures your home withstands the harsh winters with snow and ice, while maintaining its elegant appearance. We also specialize in interior painting, helping homeowners refresh their living spaces with modern or classic finishes. Whether it's a historic home or a newer development, our team delivers quality results tailored to Carmel's distinctive neighborhoods.",
+        "localContext": "Carmel is known for its affluent neighborhoods, excellent schools, and vibrant arts district, making it a desirable place to live.",
+        "nearbyAreas": [
+          "Fishers",
+          "Noblesville",
+          "Westfield"
+        ]
+      },
+      {
+        "city": "Fishers",
+        "slug": "fishers-in",
+        "state": "IN",
+        "content": "Fishers, IN, is a rapidly growing city with many planned communities built from the 1990s to the 2020s. Horizon Painting is well-versed in the unique needs of these newer homes, offering services like exterior painting to protect against cold winters with snow and ice. We also provide interior painting to help residents personalize their modern spaces. Our team understands the importance of maintaining the pristine look of Fishers' well-kept neighborhoods.",
+        "localContext": "Fishers is a family-friendly city with top-rated schools, parks, and a thriving business community.",
+        "nearbyAreas": [
+          "Carmel",
+          "Noblesville",
+          "Geist"
+        ]
+      },
+      {
+        "city": "Noblesville",
+        "slug": "noblesville-in",
+        "state": "IN",
+        "content": "Noblesville, IN, is rich in history, particularly in its Courthouse Square area, where many homes boast classic architectural details. Horizon Painting specializes in preserving and enhancing these historic properties with careful exterior and interior painting. Our services are designed to protect homes from the cold winters with snow and ice, ensuring they remain beautiful year-round. Whether you own a historic gem or a newer build, we provide tailored solutions for Noblesville's diverse housing stock.",
+        "localContext": "Noblesville combines small-town charm with modern amenities, including a lively downtown and scenic White River access.",
+        "nearbyAreas": [
+          "Carmel",
+          "Fishers",
+          "Westfield"
+        ]
+      },
+      {
+        "city": "Westfield",
+        "slug": "westfield-in",
+        "state": "IN",
+        "content": "Westfield, IN, is a growing community with a mix of historic homes and new developments. Horizon Painting offers expert exterior painting to shield homes from the cold winters with snow and ice, as well as interior painting to refresh living spaces. Our team is familiar with Westfield's unique blend of old and new, ensuring every project meets the highest standards. From charming cottages to modern estates, we help homeowners maintain their property's appeal.",
+        "localContext": "Westfield is known for its family-friendly atmosphere, excellent schools, and the Grand Park sports complex.",
+        "nearbyAreas": [
+          "Carmel",
+          "Noblesville",
+          "Fishers"
+        ]
+      },
+      {
+        "city": "Zionsville",
+        "slug": "zionsville-in",
+        "state": "IN",
+        "content": "Zionsville, IN, is a picturesque town with a historic downtown and upscale neighborhoods. Horizon Painting provides exterior painting services to protect homes from the cold winters with snow and ice, as well as interior painting to enhance their elegance. Our team appreciates Zionsville's unique character and delivers meticulous work to match. Whether your home is a historic landmark or a newer build, we ensure it looks its best.",
+        "localContext": "Zionsville offers a quaint, small-town feel with boutique shopping, fine dining, and top-rated schools.",
+        "nearbyAreas": [
+          "Carmel",
+          "Whitestown",
+          "Lebanon"
+        ]
+      },
+      {
+        "city": "Geist",
+        "slug": "geist-in",
+        "state": "IN",
+        "content": "Geist, IN, is a lakeside community known for its luxury homes and scenic views. Horizon Painting specializes in exterior painting to protect these high-end properties from the cold winters with snow and ice. We also offer interior painting services to complement the sophisticated aesthetics of Geist homes. Our team understands the importance of quality craftsmanship in this exclusive area, ensuring every project exceeds expectations.",
+        "localContext": "Geist is a premier residential area centered around Geist Reservoir, offering boating, fishing, and upscale living.",
+        "nearbyAreas": [
+          "Fishers",
+          "Noblesville",
+          "Lawrence"
+        ]
+      },
+      {
+        "city": "Lawrence",
+        "slug": "lawrence-in",
+        "state": "IN",
+        "content": "Lawrence, IN, features a mix of mid-century homes and newer constructions, all requiring reliable painting services. Horizon Painting provides exterior painting to safeguard homes from the cold winters with snow and ice, as well as interior painting to modernize living spaces. Our team is experienced in working with Lawrence's diverse housing styles, delivering durable and attractive finishes. We help homeowners maintain their properties with professional care.",
+        "localContext": "Lawrence is a convenient suburb with easy access to Indianapolis, offering affordable housing and community parks.",
+        "nearbyAreas": [
+          "Fishers",
+          "Geist",
+          "Fortville"
+        ]
+      },
+      {
+        "city": "Greenfield",
+        "slug": "greenfield-in",
+        "state": "IN",
+        "content": "Greenfield, IN, is a charming city with a mix of historic and contemporary homes. Horizon Painting offers exterior painting to protect properties from the cold winters with snow and ice, as well as interior painting to refresh any space. Our team respects Greenfield's small-town vibe while delivering professional results. Whether your home is a historic treasure or a modern build, we provide personalized service to meet your needs.",
+        "localContext": "Greenfield is known for its historic courthouse, friendly community, and proximity to rural landscapes.",
+        "nearbyAreas": [
+          "New Palestine",
+          "Fortville",
+          "McCordsville"
+        ]
+      },
+      {
+        "city": "McCordsville",
+        "slug": "mccordsville-in",
+        "state": "IN",
+        "content": "McCordsville, IN, is a growing town with a blend of rural charm and suburban development. Horizon Painting provides exterior painting to protect homes from the cold winters with snow and ice, as well as interior painting to enhance their appeal. Our team is familiar with McCordsville's evolving landscape, offering tailored solutions for both older and newer homes. We help residents maintain their properties with quality craftsmanship.",
+        "localContext": "McCordsville offers a peaceful setting with easy access to Indianapolis, making it ideal for families and commuters.",
+        "nearbyAreas": [
+          "Fishers",
+          "Fortville",
+          "Greenfield"
+        ]
+      },
+      {
+        "city": "Fortville",
+        "slug": "fortville-in",
+        "state": "IN",
+        "content": "Fortville, IN, is a small town with a mix of historic homes and newer subdivisions. Horizon Painting specializes in exterior painting to defend against the cold winters with snow and ice, as well as interior painting to revitalize living spaces. Our team appreciates Fortville's unique character and delivers work that reflects its charm. Whether your home is a classic or contemporary style, we provide expert service to keep it looking its best.",
+        "localContext": "Fortville boasts a tight-knit community, local festivals, and a growing downtown area.",
+        "nearbyAreas": [
+          "McCordsville",
+          "Greenfield",
+          "Fishers"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-refinishing": "/images/service-cabinet-refinishing.webp",
+      "deck-staining": "/images/service-deck-staining.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "popcorn-ceiling-removal": "/images/service-popcorn-ceiling-removal.webp",
+      "color-consultation": "/images/service-color-consultation.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-refinishing": {
+        "src": "/images/service-cabinet-refinishing.webp",
+        "srcset": "/images/service-cabinet-refinishing-400w.webp 400w, /images/service-cabinet-refinishing-800w.webp 800w, /images/service-cabinet-refinishing-1200w.webp 1200w, /images/service-cabinet-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining": {
+        "src": "/images/service-deck-staining.webp",
+        "srcset": "/images/service-deck-staining-400w.webp 400w, /images/service-deck-staining-800w.webp 800w, /images/service-deck-staining-1200w.webp 1200w, /images/service-deck-staining.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "popcorn-ceiling-removal": {
+        "src": "/images/service-popcorn-ceiling-removal.webp",
+        "srcset": "/images/service-popcorn-ceiling-removal-400w.webp 400w, /images/service-popcorn-ceiling-removal-800w.webp 800w, /images/service-popcorn-ceiling-removal-1200w.webp 1200w, /images/service-popcorn-ceiling-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "color-consultation": {
+        "src": "/images/service-color-consultation.webp",
+        "srcset": "/images/service-color-consultation-400w.webp 400w, /images/service-color-consultation-800w.webp 800w, /images/service-color-consultation-1200w.webp 1200w, /images/service-color-consultation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
